@@ -70,7 +70,7 @@ ESP32開発ボードとCAN FDモジュール2枚を取り付け、DB9ケーブ�
 - [仕様・接続表](docs/hardware.md)
 - [組立・動作確認ガイド](docs/assembly.md)
 - [KiCad設計データ](hardware/kicad/)
-- [保存済み製造データ](hardware/production/)
+- [製造データ](hardware/production/)
 - [筐体・3Dデータ](mechanical/)
 - [上下筐体のSTL・印刷ガイド（MakerWorld）](https://makerworld.com/ja/models/3444573-upper-and-lower-enclosure-for-esp32-can-fd-gateway)
 - [サンプルの準備状況](example/README.md)
