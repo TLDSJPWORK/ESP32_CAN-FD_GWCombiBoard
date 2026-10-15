@@ -73,7 +73,6 @@ ESP32開発ボードとCAN FDモジュール2枚を取り付け、DB9ケーブ�
 - [保存済み製造データ](hardware/production/)
 - [筐体・3Dデータ](mechanical/)
 - [サンプルの準備状況](example/README.md)
-- [検証記録](docs/validation.md)
 - [公開・ライセンス整備状況](docs/publication.md)
 
 [回路図PDF](docs/schematic.pdf)も用意しております。基板の表裏写真、接続説明図、組立例を上記に掲載しています。

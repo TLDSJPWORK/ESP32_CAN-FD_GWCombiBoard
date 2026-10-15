@@ -1,8 +1,11 @@
-# 保存済み製造データ
+# 製造データ
 
-元プロジェクトのproductionからコピー。ガーバZIPは2026-07-08出力で13ファイルを含む。
-2026-10-12に現行PCBとGerber9層の描画結果・PTH/NPTHドリルの一致を確認した。ERC違反0件、DRC違反0件・未配線0件。検証内容は[検証記録](../../docs/validation.md)を参照。
-BOMのU1はValue・Footprintが空欄。基板単体販売のため、部品実装注文用BOMとして使用しない。実物の製造品質・電源・通信試験は未実施。
-ガーバの再出力時は基板リビジョンと出力日を記録する。
+- [Gerber・ドリルデータ](ESP32_CAN-FD_GWCombiBoard.zip)
+- [BOM](bom.csv)
+- [部品情報](designators.csv)
+- [部品配置](positions.csv)
+- [ネットリスト](netlist.ipc)
 
-旧ZIPを再現する設定：ドリルマークなし（drillshape=0）、ソルダーマスク部分をシルクから除去（subtractmaskfromsilk=yes）。保存PCBの設定と異なるため、比較用コピーで設定を揃えて確認した。ZIP中のドリルマップ2ファイルは参考図で、比較対象はGerber9層と加工用ドリル2ファイル。
+再製造する場合は、使用する部品・実装内容に合わせてデータを確認してください。
+
+BOMのU1はValue・Footprintが空欄です。部品実装を発注する場合は、使用するESP32開発ボードに合わせて補ってください。
