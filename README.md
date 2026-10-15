@@ -1,4 +1,4 @@
-# ESP32 CAN-FD GateWay CombiBoard｜公開用リポジトリ
+# ESP32 CAN-FD GateWay CombiBoard
 
 ESP32開発ボード と MCP2518 + MCP2562FD CAN FD Busモジュール x2 を接続するための実験用基板、ESP32_CAN-FD_GWCombiBoardの資料です。
 
@@ -52,8 +52,8 @@ CANの終端抵抗はCANモジュール側で設定し、各バスの両端で�
 
 ## 内容物・別途必要な部品
 
-販売内容物はDB9コネクタ実装済みの基板1枚です。その他の部品は別途購入し、購入者がはんだ付けして実装を想定しています。
-ESP32、CAN FDモジュール、コネクタ、電源部品、表示器、筐体の型番と同梱有無は[組立ガイド](docs/assembly.md)に整理します。
+販売内容物はDB9コネクタ実装済みの基板1枚です。その他の部品は別途購入し、はんだ付けして実装する構成です。
+必要な部品と取付方法は[組立ガイド](docs/assembly.md)を参照してください。
 
 ## 使用例
 
@@ -73,8 +73,8 @@ ESP32開発ボードとCAN FDモジュール2枚を取り付け、DB9ケーブ�
 - [製造データ](hardware/production/)
 - [筐体・3Dデータ](mechanical/)
 - [上下筐体のSTL・印刷ガイド（MakerWorld）](https://makerworld.com/ja/models/3444573-upper-and-lower-enclosure-for-esp32-can-fd-gateway)
-- [サンプルの準備状況](example/README.md)
-- [公開・ライセンス整備状況](docs/publication.md)
+- [ソフトウェアについて](example/README.md)
+- [収録データとライセンス](docs/publication.md)
 
 [回路図PDF](docs/schematic.pdf)も用意しております。基板の表裏写真、接続説明図、組立例を上記に掲載しています。
 
