@@ -41,11 +41,11 @@
 
 | ピン | モジュール側の信号 | J9（Ch1） | J10（Ch2） |
 |---|---|---|---|
-| 1 | SCK | GPIO32 | GPIO27 |
-| 2 | CS | GPIO26 | GPIO14 |
-| 3 | SDO（ESP32のMISO） | GPIO19 | GPIO13 |
-| 4 | SDI（ESP32のMOSI） | GPIO18 | GPIO12 |
-| 5 | INT | GPIO25 | GPIO15 |
+| 1 | INT | GPIO32 | GPIO27 |
+| 2 | SCK | GPIO26 | GPIO14 |
+| 3 | SDI（ESP32のMOSI） | GPIO19 | GPIO13 |
+| 4 | SDO（ESP32のMISO） | GPIO18 | GPIO12 |
+| 5 | CS | GPIO25 | GPIO15 |
 | 6 | GND | GND | GND |
 | 7 | 5V | 5V | 5V |
 | 8 | 3.3V | 3V3 | 3V3 |
