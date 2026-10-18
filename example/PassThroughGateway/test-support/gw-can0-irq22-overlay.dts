@@ -1,0 +1,24 @@
+/dts-v1/;
+/plugin/;
+/ {
+ fragment@0 {
+  target-path = "/axi/pcie@120000/rp1/spi@50000/can@3";
+  __overlay__ {
+   interrupt-parent = <&rp1_gpio>;
+   interrupts = <22 8>;
+   pinctrl-names = "default";
+   pinctrl-0 = <&gw_can0_irq22_pin>;
+   status = "okay";
+  };
+ };
+ fragment@1 {
+  target = <&rp1_gpio>;
+  __overlay__ {
+   gw_can0_irq22_pin: gw_can0_irq22_pin {
+    brcm,pins = <22>;
+    brcm,function = <0>;
+    brcm,pull = <2>;
+   };
+  };
+ };
+};
