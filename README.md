@@ -65,6 +65,8 @@ ESP32開発ボードとCAN FDモジュール2枚を取り付け、DB9ケーブ�
 
 写真のESP32、CAN FDモジュール、表示器、ケーブル、筐体は販売品に含まれません。部品の向きは[組立ガイド](docs/assembly.md)、筐体データは[こちら](mechanical/README.md)を参照してください。
 
+- [GateWay CombiBoardの組立と2バス通信の紹介（note）](https://note.com/tldsjpwork/n/n04cee544bb15)
+
 ## 資料
 
 - [仕様・接続表](docs/hardware.md)
@@ -80,8 +82,8 @@ ESP32開発ボードとCAN FDモジュール2枚を取り付け、DB9ケーブ�
 
 ## 販売・問い合わせ
 
-スイッチサイエンス様での委託販売を予定しています。
-- 販売ページ：【発売後掲載】
+スイッチサイエンス様にて委託販売中
+- [GateWay CombiBoardの販売ページ](https://www.switch-science.com/products/11498)
 - 技術問い合わせ先：tldsjpwork@gmail.com
 
 ## ライセンス
